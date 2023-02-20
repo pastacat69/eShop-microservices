@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{95654416-0C7F-46D2-B547-C7B38857A064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "catalogs", "catalogs", "{6E3478A9-43D9-4EB1-98A5-28E1FAD3D2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Catalog.Host", "services\catalogs\AspNetCore.Catalog.Host\AspNetCore.Catalog.Host.csproj", "{0D33BF56-5DF7-4D23-846E-57D2FA8CB3C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D33BF56-5DF7-4D23-846E-57D2FA8CB3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D33BF56-5DF7-4D23-846E-57D2FA8CB3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D33BF56-5DF7-4D23-846E-57D2FA8CB3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D33BF56-5DF7-4D23-846E-57D2FA8CB3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E3478A9-43D9-4EB1-98A5-28E1FAD3D2C1} = {95654416-0C7F-46D2-B547-C7B38857A064}
+		{0D33BF56-5DF7-4D23-846E-57D2FA8CB3C5} = {6E3478A9-43D9-4EB1-98A5-28E1FAD3D2C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {166708E5-A169-41A0-B800-99B74604E202}
+	EndGlobalSection
+EndGlobal
